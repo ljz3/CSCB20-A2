@@ -17,7 +17,7 @@ body {
 
 
 .navbar-container a{
-    padding: 20px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     color: #fff;
@@ -31,7 +31,7 @@ body {
 
 /*-----------------------Body CSS-----------------------*/
 .body-container {
-    padding-top: 65px;
+    padding-top: 50px;
     margin: 20px 50px;
 }
 
