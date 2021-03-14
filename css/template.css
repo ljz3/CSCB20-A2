@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1 ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #2980b9;
+    position: fixed;
+    top: 0;
+}
+
+
+.navbar-container a{
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar-container a:hover {
+    background-color: #ecf0f1  ;
+    color: #2ecc71 ;
+}
+
+.body-container {
+    padding-top: 65px;
+    margin: 20px 50px;
+}
+
+
+/*-----------------------Footer CSS-----------------------*/
+
+.footer-container {
+    width: 100%;
+    justify-content: center;
+    background-color: #95a5a6 ;
+    flex-flow: wrap;
+    position: relative;
+    bottom: 0;
+}
+
+.copyright-flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #95a5a6 ;
+    flex-flow: wrap;
+}
+
+.footer-content{
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.main {
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #2980b9;
+}
+
+
+@media screen and (max-width: 900px) {
+    .navbar-container {
+        size: 1%;
+        flex-direction: column; 
+        text-align: center;
+        position: relative;
+    }
+
+    .navbar-container a{
+        padding: 5px;
+    }
+
+    .footer-container{
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .body-container {
+        padding-top: 0px;
+        margin: 20px 30px;
+    }
+
+  }
