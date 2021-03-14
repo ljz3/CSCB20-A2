@@ -9,14 +9,17 @@ def hello_world():
 def dave_function(name_input):
     name = name_input
     output = ""
+    hasNUM = False
     for letter in name:
         if not letter.isdigit():
             output = output + letter
+        elif letter.isdigit():
+            hasNUM = True
 
-    if output.islower():
-        return output.upper()
+    if output.islower() and hasNUM == False:
+        output = output.upper()
 
-    else if output.isupper():
-        return output.lower()
+    elif output.isupper() and hasNUM == False:
+        output = output.lower()
     
-    return output
+    return "Welcome, " + output + ", to my CSCB20 website"
