@@ -13,6 +13,7 @@ body {
     background-color: #2980b9;
     position: fixed;
     top: 0;
+    z-index: 9999;
 }
 
 
@@ -40,7 +41,7 @@ body {
     text-align: center;
     position: relative;
     animation: heading;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -130,7 +131,7 @@ input[type="text"], textarea{
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     .navbar-container {
         size: 1%;
         flex-direction: column; 

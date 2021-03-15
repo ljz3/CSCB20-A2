@@ -6,6 +6,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 .navbar-container {
     display: flex;
     width: 100%;
@@ -13,6 +17,7 @@ body {
     background-color: #2980b9;
     position: fixed;
     top: 0;
+    z-index: 9999;
 }
 
 
@@ -21,11 +26,13 @@ body {
     text-decoration: none;
     text-align: center;
     color: #ecf0f1 ;
+    z-index: 9000;
 }
 
 .navbar-container a:hover {
     background-color: #ecf0f1  ;
     color: #2ecc71 ;
+    
 }
 
 
@@ -63,7 +70,7 @@ body {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
     .navbar-container {
         size: 1%;
         flex-direction: column; 
