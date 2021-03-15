@@ -38,6 +38,15 @@ body {
 
 .top-info {
     text-align: center;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {top: -220px;}
+    100% {top: 0px;}
 }
 
 .note-text {
@@ -50,7 +59,16 @@ body {
     margin:20px 70px;
     display: flex;
     justify-content: center;
+    animation: fading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes fading {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
 
 form {
     width: 100%;
