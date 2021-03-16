@@ -33,8 +33,41 @@ body {
 .body-container {
     padding-top: 50px;
     margin: 20px 50px;
+    text-align: center;
 }
 
+.page-text {
+    margin:  5%;
+}
+
+form {
+    margin: 12%;
+}
+
+form button {
+    max-width: 200px;
+    width: 100%;
+    padding: 25px;
+    background-color: #2980b9;
+    border: none;
+    color: #ecf0f1;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #2ecc71;
+    font-size: 18px;
+    transition: 1s;
+}
+
+form button:hover {
+    max-width: 200px;
+    width: 100%;
+    padding: 25px;
+    background-color: #ecf0f1;
+    border: none;
+    color: #2ecc71;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #2ecc71;
+    font-size: 20px;
+}
 
 /*-----------------------Footer CSS-----------------------*/
 

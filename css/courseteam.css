@@ -52,7 +52,7 @@ h1 {
     flex-direction: column;
     border: 1px solid #2980b9;
     border-radius: 10px;
-    padding: 10px;
+    padding: 3px;
     box-shadow: 0 0 20px #2ecc71;
 }
 
@@ -71,6 +71,15 @@ ul {
     display: flex;
     align-items: center;
     margin-bottom: 3%;
+}
+
+.course-instrctor a{
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.course-instrctor a:hover {
+    color: #2ecc71 ;
 }
 
 #anna-img {
