@@ -39,6 +39,7 @@ body {
 .labs {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     text-align: center;
 }
@@ -50,7 +51,9 @@ body {
     border: #2980b9 1px solid;
     border-radius: 15px;
     box-shadow: 0 0 20px #2ecc71;
+    flex-direction: column;
 }
+
 
 .lab a {
     text-decoration: none;

@@ -1,0 +1,11 @@
+User Stories											Png Name
+------------------------------------------------------------------------------------------------------------
+
+As a user I want to be able to leave feedback to the instructor anonymously
+As a user I want to be able to leave feedback to the instructor by name
+As a user I want to be able to see the TA's of the course 
+As a user I want to be able to see what time there are TA office hours 
+As a user I want to be able to find the link to the onlne office hours
+As a user I want to be able to go to markus by a click of a button
+As a user I want to be able to find the weekly labs handouts
+As a user I want to be able to find the solutions to the weekly handouts
