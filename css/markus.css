@@ -55,6 +55,7 @@ form button {
     box-shadow: 0 0 10px #2ecc71;
     font-size: 18px;
     transition: 1s;
+    cursor: pointer;
 }
 
 form button:hover {

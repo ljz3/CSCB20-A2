@@ -58,7 +58,8 @@ body {
     border-radius: 15px;
     color: #ecf0f1;
     background-color: #2980b9;
-    transition: 2s;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .lab a:hover {

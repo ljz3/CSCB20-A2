@@ -91,17 +91,24 @@ input[type="text"], textarea{
 }
 
 .form-button {
-    padding: 10px;
-    justify-content: center;
-    background-color: #2980b9 ;
+    background-color: #2980b9;
+    padding: 15px;
     border: none;
-    color: #ecf0f1 ;
+    color: #ecf0f1;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #2ecc71;
+    font-size: 18px;
+    transition: 1s;
     cursor: pointer;
 }
 
 .form-button:hover {
     background-color: #ecf0f1;
+    border: none;
     color: #2ecc71;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #2ecc71;
+    font-size: 20px;
 }
 
 /*-----------------------Footer CSS-----------------------*/
