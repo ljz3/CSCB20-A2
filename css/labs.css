@@ -36,6 +36,44 @@ body {
 }
 
 
+.labs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+
+.lab {
+    padding: 20px;
+    margin: 20px;
+    border: #2980b9 1px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #2ecc71;
+}
+
+.lab a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ecf0f1;
+    background-color: #2980b9;
+    transition: 2s;
+}
+
+.lab a:hover {
+    background-color: #ecf0f1;
+    border: none;
+    color: #2ecc71;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #2ecc71;
+    font-size: 20px;
+}
+
+
+
+
+
 /*-----------------------Footer CSS-----------------------*/
 
 .footer-container {
