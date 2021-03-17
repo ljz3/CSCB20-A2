@@ -75,9 +75,6 @@ body {
     bottom: 0;
 }
 
-.footer-content-container{
-    background-color: #f1c40f;
-}
 
 .footer-container a{
     text-decoration: none;
@@ -100,6 +97,7 @@ body {
 .footer-container a:hover {
     color: #2ecc71 ;
 }
+
 
 
 @media screen and (max-width: 480px) {
