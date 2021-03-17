@@ -103,7 +103,7 @@ ul {
 /*-----------------------Footer CSS-----------------------*/
 
 .footer-container {
-    position: relative;
+    position: absolute;
     width: 100%;
     justify-content: center;
     flex-flow: wrap;

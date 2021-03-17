@@ -36,14 +36,23 @@ body {
 /*-----------------------Body CSS-----------------------*/
 .body-container {
     padding-top: 50px;
-    margin: 20px 50px;
+    margin: 0px 50px;
+}
+
+.body-container a:hover{
+    color: #2ecc71;
+}
+
+#intro{
+    padding-top: 50px;
+    align-self: center
 }
 
 
 /*-----------------------Footer CSS-----------------------*/
 
 .footer-container {
-    position: relative;
+    position: absolute;
     width: 100%;
     justify-content: center;
     flex-flow: wrap;

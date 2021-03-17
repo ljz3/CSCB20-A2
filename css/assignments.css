@@ -1,11 +1,11 @@
 body {
     margin: 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #ecf0f1 ;
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 .navbar-container {
     display: flex;
@@ -37,6 +37,7 @@ body {
 .body-container {
     padding-top: 50px;
     margin: 20px 50px;
+    min-height: 100%;
 }
 
 .assignments {
@@ -79,7 +80,7 @@ body {
 /*-----------------------Footer CSS-----------------------*/
 
 .footer-container {
-    position: relative;
+    position: absolute;
     width: 100%;
     justify-content: center;
     flex-flow: wrap;

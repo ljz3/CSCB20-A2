@@ -80,6 +80,10 @@ body {
 
 /*-----------------------Footer CSS-----------------------*/
 
+.footer{
+    margin-top: auto;
+}
+
 .footer-container {
     position: relative;
     width: 100%;
