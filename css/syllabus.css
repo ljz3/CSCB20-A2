@@ -39,6 +39,31 @@ body {
     margin: 20px 50px;
 }
 
+.syllabus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.syllabus a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ecf0f1;
+    background-color: #2980b9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.syllabus a:hover {
+    background-color: #ecf0f1;
+    border: none;
+    color: #2ecc71;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #2ecc71;
+    font-size: 20px;
+}
+
 
 /*-----------------------Footer CSS-----------------------*/
 
