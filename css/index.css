@@ -52,7 +52,7 @@ body {
 /*-----------------------Footer CSS-----------------------*/
 
 .footer-container {
-    position: absolute;
+    position: relative;
     width: 100%;
     justify-content: center;
     flex-flow: wrap;
