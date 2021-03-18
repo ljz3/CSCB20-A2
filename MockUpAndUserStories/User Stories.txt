@@ -9,3 +9,5 @@ As a user I want to be able to find the link to the onlne office hours
 As a user I want to be able to go to markus by a click of a button
 As a user I want to be able to find the weekly labs handouts
 As a user I want to be able to find the solutions to the weekly handouts
+As a user I want to be able to go to the course Piazza page quickly.
+As a user I want to be able to find the link to the course syllabus quickly.
