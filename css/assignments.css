@@ -51,7 +51,7 @@ body {
 
 .assignment {
     padding: 20px;
-    margin: 20px;
+    margin: 50px;
     border: #2980b9 1px solid;
     border-radius: 15px;
     box-shadow: 0 0 20px #2ecc71;
@@ -80,7 +80,7 @@ body {
 /*-----------------------Footer CSS-----------------------*/
 
 .footer-container {
-    position: absolute;
+    position: relative;
     width: 100%;
     justify-content: center;
     flex-flow: wrap;
